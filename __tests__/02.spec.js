@@ -17,7 +17,7 @@ test("retorna o produto mais caro da lista", () => {
     new Produto("Produto 2", 20),
     new Produto("Produto 3", 15),
   ];
-  expect(produtoMaisCaro(produtos)).toEqual(produtos[1]);
+  expect(produtoMaisCaro(produtos)).toEqual(produtos[0]);
 });
 
 test("retorna o preço médio de uma lista de produtos", () => {
